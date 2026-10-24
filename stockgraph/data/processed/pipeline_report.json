@@ -1,0 +1,72 @@
+{
+  "status": "success",
+  "timestamp": "2026-10-14T15:12:25Z",
+  "rows_raw": 619040,
+  "rows_cleaned": 606838,
+  "tickers_raw": 505,
+  "tickers_kept": 482,
+  "tickers_dropped": 23,
+  "dropped_tickers": [
+    "ALLE",
+    "APTV",
+    "BHF",
+    "BHGE",
+    "CFG",
+    "CSRA",
+    "DWDP",
+    "DXC",
+    "EVHC",
+    "FTV",
+    "GOOG",
+    "HLT",
+    "HPE",
+    "HPQ",
+    "INFO",
+    "KHC",
+    "NAVI",
+    "PYPL",
+    "QRVO",
+    "SYF",
+    "UA",
+    "WLTW",
+    "WRK"
+  ],
+  "date_range": {
+    "start": "2013-02-08",
+    "end": "2018-02-07",
+    "total_trading_days": 1259
+  },
+  "sectors": [
+    "Basic Materials",
+    "Communication Services",
+    "Consumer Cyclical",
+    "Consumer Defensive",
+    "Energy",
+    "Financial Services",
+    "Healthcare",
+    "Industrials",
+    "Other",
+    "Real Estate",
+    "Technology",
+    "Utilities"
+  ],
+  "step_timings_seconds": {
+    "read_raw_chunks": 0.476,
+    "clean_and_filter": 1.524,
+    "pivot_wide_tables": 0.489,
+    "metadata_join": 0.023,
+    "save_parquet": 1.412,
+    "total": 4.065
+  },
+  "memory_usage_mb": {
+    "peak_rss": 405.57,
+    "current_rss": 405.57
+  },
+  "files_generated": [
+    "ohlcv_long.parquet",
+    "prices_wide.parquet",
+    "volume_wide.parquet",
+    "returns_wide.parquet",
+    "metadata.parquet"
+  ]
+}

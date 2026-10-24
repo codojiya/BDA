@@ -1,0 +1,3 @@
+"""
+StockGraph Backend Application
+"""
